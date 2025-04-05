@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/rani25lodha/movieSearch', branch: 'master'
+                git url: 'https://github.com/rani25lodha/movieSearch', branch: 'main'
             }
         }
 
